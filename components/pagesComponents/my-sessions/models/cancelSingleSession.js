@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import TextSmall from "../../../common-components/text/small";
 import OutsideClick from "react-outside-click-handler";
 import SimpleButton from "../../../unique-components/simple-button"
-import { deleteParticipantGroup, updateParticipantGroup } from "../../../../api/graphql/customMutations";
-import { getGroup } from "../../../../api/graphql/queries";
+import { deleteParticipantGroup, updateParticipantGroup } from "../../../../apiOld/graphql/customMutations";
+import { getGroup } from "../../../../apiOld/graphql/queries";
 import { API, graphqlOperation } from "aws-amplify";
 import {emailRequest} from "../../../../config";
 import { api } from "../../../../helpers/api";

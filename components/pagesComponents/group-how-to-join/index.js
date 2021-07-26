@@ -9,9 +9,9 @@ import MainArea from "../../major-components/mainArea";
 import Sidebar from "../../major-components/sideBar";
 import InstructionModal from "../../pagesComponents/modals/instructions";
 import EventSuccess from "../../pagesComponents/modals/event-success";
-import { getGroup } from "../../../api/graphql/customQueries";
-import { createParticipantGroup } from "../../../api/graphql/customMutations";
-import { listParticipantGroups } from "../../../api/graphql/customQueries";
+import { getGroup } from "../../../apiOld/graphql/customQueries";
+import { createParticipantGroup } from "../../../apiOld/graphql/customMutations";
+import { listParticipantGroups } from "../../../apiOld/graphql/customQueries";
 import { API, graphqlOperation } from "aws-amplify";
 import Loader from "../../common-components/loader";
 import Link from "next/link";
@@ -23,7 +23,7 @@ import {
     emailRequest
 } from "../../../config";
 import ReportClinicain from "../modals/report-clinician";
-import { createReport } from "../../../api/graphql/mutations";
+import { createReport } from "../../../apiOld/graphql/mutations";
 import { openPopupWidget } from "react-calendly";
 import Router from "next/router";
 import CancelSingleSession from "./models/cancelSingleSession";

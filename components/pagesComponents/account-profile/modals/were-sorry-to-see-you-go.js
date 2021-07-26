@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import TextSmall from "../../../common-components/text/small/index";
 import SimpleButton from "../../../unique-components/simple-button/index";
 import SimpleInput from "../../../common-components/textInput/index"
-import { getParticipant } from "../../../../api/graphql/customQueries";
-import { deleteParticipantGroup, deleteReport, deleteParticipant } from "../../../../api/graphql/mutations";
+import { getParticipant } from "../../../../apiOld/graphql/customQueries";
+import { deleteParticipantGroup, deleteReport, deleteParticipant } from "../../../../apiOld/graphql/mutations";
 import { API, graphqlOperation, Auth } from "aws-amplify";
 import { api } from "../../../../helpers/api";
 import { disableUser, deleteUser, emailRequest } from "../../../../config";

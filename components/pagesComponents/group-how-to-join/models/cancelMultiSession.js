@@ -3,8 +3,8 @@ import MessageBox from "../../../unique-components/text-box/message-box"
 import TextSmall from "../../../common-components/text/small";
 import OutsideClick from "react-outside-click-handler";
 import SimpleButton from "../../../unique-components/simple-button";
-import { deleteParticipantGroup } from "../../../../api/graphql/customQueries";
-import { getGroup } from "../../../../api/graphql/customQueries";
+import { deleteParticipantGroup } from "../../../../apiOld/graphql/customQueries";
+import { getGroup } from "../../../../apiOld/graphql/customQueries";
 import { API, graphqlOperation } from "aws-amplify";
 import sortArray from "array-sort";
 import { emailRequest } from "../../../../config";

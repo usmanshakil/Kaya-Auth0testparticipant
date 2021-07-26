@@ -7,7 +7,7 @@ import SideBar from '../../major-components/sideBar';
 import MainArea from '../../major-components/mainArea';
 import axios from 'axios';
 import { emailRequest, paymentPath } from '../../../config';
-import { updateParticipant } from '../../../api/graphql/mutations';
+import { updateParticipant } from '../../../apiOld/graphql/mutations';
 import { API, graphqlOperation } from 'aws-amplify';
 import { getWindowHeight } from '../../function';
 import { api } from '../../../helpers/api';
